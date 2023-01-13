@@ -1,0 +1,433 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(8, 8, 86);
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    background-color: rgb(46, 119, 215);
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container a {
+    margin: 10px;
+}
+
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(219, 215, 215);
+    padding: 15px 30px;
+}
+
+input {
+    border-radius: 5px;
+    font-size: 20px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.label-login {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login-box {
+    background-color: rgb(219, 215, 215);
+    border-radius: 5%;
+    height: 350px;
+    padding: 50px;
+    width: 300px;
+}
+
+.top {
+    display: inline-block;
+}
+
+.main-heading-box {
+    display: inline-block;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 60px;
+    height: auto;
+}
+
+.amazon {
+    height: 45px;
+    width: 45px;
+    border-radius: 0;
+    margin-left: 7px;
+}
+
+.disney {
+    border-radius: 0;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+  
+tr {
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.last-tr {
+    border-bottom: 0px solid black;
+}
+
+.disney-div {
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+table .button {
+    width: 120px;
+    margin: 0;
+}
+
+.companies-box{
+    background-color: rgb(219, 215, 215);
+    border-radius: 25px;
+    height: 540px;
+    padding: 50px;
+    width: 700px;
+}
+
+.search-box {
+    background-color: rgb(219, 215, 215);
+    padding: 0px;
+    border-radius: 50px;
+    display: flex;
+    height: 50px;
+    margin-bottom: 15px;
+    width: 800px;
+}
+
+.search {
+    border: 0;
+    border-radius: 25px;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    width: 100%;
+    height: 70%;
+}
+
+.search-ikona {
+    margin: 0;
+    color: gray;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.search-box-form {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-right: 0;
+}
+
+.profile-box{
+    background-color: rgb(219, 215, 215);
+    border-radius: 5%;
+    height: 500px;
+    padding: 50px;
+    width: 650px;
+}
+
+#main-heading {
+    color: rgb(46, 119, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    position: relative;
+    size: 100px;
+}
+
+.companies-nav h3 {
+    color: rgb(46, 119, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 10px 0px 0px 50px;
+}
+
+.companies-nav {
+    display: flex;
+}
+
+.right {
+    float: right;
+}
+
+.rightside h3 {
+    margin: 0;
+}
+
+.wallet {
+    margin: 10px 0px 0px 20px;
+    color: red;
+}
+
+td h3 {
+    color: rgb(46, 119, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 100px;
+}
+
+.plus {
+    margin: 10px 0px 0px 5px;
+}
+
+#plus-h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50, 171, 219);
+}
+
+h2 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0 25px 0 25px;
+}
+
+.nazov {
+    margin: 0;
+}
+
+.portfolio-nazov {
+    margin-left: 20px;
+}
+
+.stock {
+    height: 60px;
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+label {
+    color: white;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.owned {
+    color: rgb(46, 119, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.owned-stocks {
+    margin-left: 50px;
+}
+
+.price-portfolio {
+    margin-left: 50px;
+}
+
+.label-profile {
+    color: rgb(46, 119, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-profile {
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    width: 250px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-foto {
+    height: 250px;
+    margin-right: 100px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.profile-box {
+    display: flex; 
+    justify-content: center;
+}
+
+.profile-smaller-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.profile-button {
+    width: 250px;
+}
+
+.profile-buttons h2 {
+    margin: 0;
+}
+
+.description {
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.description h3 {
+    color: rgb(46, 119, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.desc-box {
+    width: 80%;
+    border-radius: 30px;
+    height: auto;
+    padding: 10px;
+}
+
+.desc-box h2 {
+    text-align: justify;
+    color: black;
+}
+
+.specific-stock {
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.sellbox {
+    margin-top: 50px;
+    border-radius: 25px;
+    width: 450px;
+    height: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sellbox input {
+    margin: 0;
+    width: 50px;
+    text-align: center;
+}
+
+.radio-sell {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.radio-sell .radio1 {
+    margin-bottom: 0px;
+}
+
+.radio-sell label {
+    color: rgb(46, 119, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skuska {
+    display: flex;
+    align-items: center;
+}
+
+.new-button {
+    width: 160px;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    background-color: rgb(73, 172, 73);
+    border-radius: 25px;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+}
+
+.popup h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.x {
+    position: relative;
+    bottom: 55px;
+    left: 135px;
+}
+
+.x h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
